@@ -12,17 +12,17 @@ body {
     justify-content: flex-start;
     align-items: center;
 
-    header {
-      padding: 0 1rem;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-end;
+    .heading {
+         padding: 0 1rem;
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         align-items: flex-end;
 
-      h3 {
-        font-size: 24px;
-        font-weight: bold;
-      }
+         h3 {
+           font-size: 24px;
+           font-weight: bold;
+         }
 
       .add-item {
         display: flex;
@@ -77,12 +77,16 @@ body {
         }
       }
       .management {
-        justify-self:flex-end;
+        display:flex;
+        flex-direction: row;
 
         .fa-cog{
-          padding-right: 1rem;
+          padding:0 1rem;
         }
       }
     }
+  }
+  .add-padding{
+    padding-top:4rem;
   }
 }
