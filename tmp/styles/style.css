@@ -45,6 +45,7 @@ body {
     margin: auto;
     width: 70%;
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center; }
     body .position header {
@@ -65,3 +66,34 @@ body {
           padding-right: 1rem;
           font-size: 1rem;
           font-weight: bold; }
+    body .position .bookmark-container {
+      margin-top: 4rem;
+      padding: 1rem 2rem;
+      width: 100%;
+      box-shadow: -3px 3px 5px 3px rgba(0, 0, 0, 0.05);
+      border-radius: 0.3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      body .position .bookmark-container .name-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center; }
+        body .position .bookmark-container .name-container .color {
+          margin-right: 1rem;
+          width: 1rem;
+          height: 1rem;
+          border-radius: 50%;
+          background-color: #9c3e9b; }
+        body .position .bookmark-container .name-container .bookmark-name h1 {
+          font-weight: bold;
+          padding-bottom: 0.3rem;
+          font-size: 1rem; }
+        body .position .bookmark-container .name-container .bookmark-name p {
+          font-size: 0.8rem;
+          opacity: 0.6; }
+      body .position .bookmark-container .management {
+        justify-self: flex-end; }
+        body .position .bookmark-container .management .fa-cog {
+          padding-right: 1rem; }
