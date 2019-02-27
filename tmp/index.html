@@ -24,30 +24,30 @@
                 <p class="button_add-item-content">Add</p>
                 <i class="fas fa-plus"></i>
             </button>
+
+            <!--New item form-->
+
+            <form class="form_add-item --hidden" autocomplete="on">
+                <p class="form_add-item-name">
+                    <label class="form_add-item-name-label">Name</label>
+                    <label><input type="text" required></label>
+                </p>
+                <p class="form_add-item-url">
+                    <label>Url</label>
+                    <label><input type="url" required></label>
+                </p>
+                <p class="form_add-item-color">
+                    <label>Color</label>
+                    <label id="colorPickerWrapper"><input type="color" id="colorPicker" value="#9c3e9b"></label>
+                </p>
+                <label class="form_add-item-to-collection">Add to collection
+                    <select name="collection">
+                        <option value="new-collection">New collection</option>
+                    </select>
+
+                </label>
+            </form>
         </header>
-
-        <!--New item form-->
-
-        <form class="form_add-item" autocomplete="on">
-            <p class="form_add-item-name">
-                <label class="form_add-item-name-label">Name</label>
-                <label><input type="text" required></label>
-            </p>
-            <p class="form_add-item-url">
-                <label>Url</label>
-                <label><input type="url" required></label>
-            </p>
-            <p class="form_add-item-color">
-                <label>Color</label>
-                <label id="colorPickerWrapper"><input type="color" id="colorPicker" value="#9c3e9b"></label>
-            </p>
-            <label class="form_add-item-to-collection">Add to collection
-                <select name="collection">
-                    <option value="new-collection">New collection</option>
-                </select>
-
-            </label>
-        </form>
 
         <!--Bookmarks section-->
 
