@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4fa643-e078-4f04-a260-1915c6845974" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/assets/bookmark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.sass-cache/793136678c3f80ab100d8be9937c8fa01a90db0c/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-cache/793136678c3f80ab100d8be9937c8fa01a90db0c/style.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/script/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/script/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/styles/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,12 +28,12 @@
     <favorites_list name="Website" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+            <state relative-caret-position="920">
+              <caret line="40" column="100" selection-start-line="40" selection-start-column="100" selection-end-line="40" selection-end-column="100" />
               <folding>
                 <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -38,8 +44,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/styles/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+            <state relative-caret-position="483">
+              <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/sass/lib/sass.jar!/org/jetbrains/plugins/sass/stdlib/sass_functions.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/script/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -78,8 +102,8 @@
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/src/styles/queries.scss" />
         <option value="$PROJECT_DIR$/src/styles/animations.scss" />
-        <option value="$PROJECT_DIR$/src/script/main.js" />
         <option value="$PROJECT_DIR$/src/inccdex.html" />
+        <option value="$PROJECT_DIR$/src/script/main.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/styles/style.scss" />
       </list>
@@ -97,8 +121,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="782" />
-    <option name="width" value="1145" />
+    <option name="x" value="542" />
+    <option name="width" value="1385" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -124,7 +148,18 @@
               <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
               <item name="htdocs" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="htdocs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="htdocs" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="script" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -140,21 +175,22 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.SCSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\src" />
-      <recent name="C:\xampp\htdocs" />
-      <recent name="C:\xampp\htdocs\src\assets" />
-      <recent name="C:\Users\daria\WebstormProjects\Website\src" />
-      <recent name="C:\Users\daria\WebstormProjects\Website\src\styles" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\src\assets" />
       <recent name="C:\Users\daria\WebstormProjects\Website\assets" />
       <recent name="C:\Users\daria\WebstormProjects\Website\temporary" />
       <recent name="C:\Users\daria\WebstormProjects\Website\source" />
       <recent name="C:\Users\daria\WebstormProjects\Website\distribution" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\tmp\assets" />
+      <recent name="C:\xampp\htdocs\src" />
+      <recent name="C:\xampp\htdocs" />
+      <recent name="C:\xampp\htdocs\src\assets" />
+      <recent name="C:\Users\daria\WebstormProjects\Website\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -216,8 +252,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test" />
         <item itemvalue="Gulp.js.default" />
+        <item itemvalue="npm.test" />
         <item itemvalue="Gulp.js.html" />
       </list>
     </recent_temporary>
@@ -269,12 +305,14 @@
       <workItem from="1551011881013" duration="1246000" />
       <workItem from="1551023000817" duration="2515000" />
       <workItem from="1551032939120" duration="1321000" />
-      <workItem from="1551109299542" duration="8320000" />
+      <workItem from="1551109299542" duration="10321000" />
+      <workItem from="1551208586216" duration="4517000" />
+      <workItem from="1551271511298" duration="8731000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139190000" />
+    <option name="totallyTimeSpent" value="154439000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -286,14 +324,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="377" y="0" width="1550" height="1047" extended-state="0" />
+    <frame x="918" y="0" width="1009" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4950927" visible="true" weight="0.13624339" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49339208" visible="true" weight="0.22039135" />
       <window_info id="Structure" order="1" sideWeight="0.5049073" side_tool="true" weight="0.0943098" />
       <window_info id="Favorites" order="2" sideWeight="0.5049073" side_tool="true" weight="0.0943098" />
-      <window_info id="Gulp" order="3" sideWeight="0.5049073" side_tool="true" weight="0.0943098" />
-      <window_info id="npm" order="4" sideWeight="0.5049073" side_tool="true" weight="0.0943098" />
+      <window_info id="Gulp" order="3" sideWeight="0.50660795" side_tool="true" weight="0.22863248" />
+      <window_info id="npm" order="4" sideWeight="0.50550663" side_tool="true" weight="0.22008547" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929516" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32929516" />
@@ -303,8 +341,8 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32819384" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32929516" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2907489" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32819384" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49933863" weight="0.2907489" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006614" side_tool="true" weight="0.2907489" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -393,21 +431,13 @@
     <entry file="file://$PROJECT_DIR$/src/assets/gpbadge.svg" />
     <entry file="file://$PROJECT_DIR$/src/assets/cosmonaut.png" />
     <entry file="file://$PROJECT_DIR$/src/assets/phone.png" />
-    <entry file="file://$PROJECT_DIR$/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/script/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/animations.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/queries.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inccdex.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inccdex.html" />
     <entry file="file://$PROJECT_DIR$/tmp/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -422,27 +452,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/script/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
+        <state relative-caret-position="709">
           <caret line="47" column="27" selection-start-line="47" selection-start-column="27" selection-end-line="47" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="72" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        <state relative-caret-position="920">
+          <caret line="40" column="100" selection-start-line="40" selection-start-column="100" selection-end-line="40" selection-end-column="100" />
           <folding>
             <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/sass/lib/sass.jar!/org/jetbrains/plugins/sass/stdlib/sass_functions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+        <state relative-caret-position="483">
+          <caret line="90" column="22" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
         </state>
       </provider>
     </entry>
