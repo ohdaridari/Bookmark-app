@@ -77,7 +77,7 @@ body {
       justify-content: space-between;
       align-items: flex-end; }
       body .wrapper .header .header_bookmarks {
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: bold; }
       body .wrapper .header .button_add-item {
         display: flex;
@@ -141,5 +141,15 @@ body {
         flex-direction: row; }
         body .wrapper .bookmark-container .management .fa-cog {
           padding: 0 1rem; }
-  body .add-padding {
-    padding-top: 4rem; }
+    body .wrapper .header_collections {
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start; }
+      body .wrapper .header_collections .header_collections-element {
+        padding-top: 4rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding-bottom: 2rem; }
+      body .wrapper .header_collections .header_collections-empty {
+        font-size: 1rem;
+        padding-left: 0.7rem; }
