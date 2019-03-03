@@ -9,7 +9,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  text-decoration: none; }
+  box-sizing: border-box; }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -65,7 +65,9 @@ body {
     border-radius: 0.5rem;
     background-color: transparent;
     border: none;
-    box-shadow: none; }
+    box-shadow: none;
+    outline: none;
+    padding: 0; }
   body input[type="color"]::-webkit-color-swatch-wrapper {
     padding: 0; }
   body input[type="color"]::-webkit-color-swatch {
@@ -78,13 +80,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center; }
+    align-items: center;
+    position: relative; }
     body .wrapper .header {
-      padding: 0 1rem;
+      padding: 0;
       width: 100%;
       display: flex;
       justify-content: space-between;
-      align-items: flex-end; }
+      align-items: flex-end;
+      flex-wrap: wrap; }
       body .wrapper .header .header_bookmarks {
         font-size: 1.5rem;
         font-weight: bold; }
@@ -94,7 +98,7 @@ body {
         justify-content: center;
         align-items: center;
         color: rgba(0, 0, 0, 0.7);
-        position: relative; }
+        margin-right: 90px; }
         body .wrapper .header .button_add-item .button_add-item-content {
           padding-right: 1rem;
           font-size: 1rem;
@@ -104,17 +108,19 @@ body {
       -moz-box-shadow: -3px 3px 5px 3px rgba(0, 0, 0, 0.05);
       box-shadow: -3px 3px 5px 3px rgba(0, 0, 0, 0.05);
       padding: 2rem;
-      display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
       border-radius: 5px;
       position: absolute;
       top: 5rem;
-      right: 2rem;
+      right: 0;
       z-index: 2;
       background-color: white;
-      font-weight: bold; }
+      font-weight: bold;
+      display: none; }
+      body .wrapper .form_add-item.active {
+        display: flex; }
       body .wrapper .form_add-item input {
         margin-top: 0.5rem; }
       body .wrapper .form_add-item .form_add-item-name {

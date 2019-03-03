@@ -1,16 +1,21 @@
-//Makes new bookmark form pop up on click
+let formAddItem = document.getElementById("formAddItem");
 
+
+//Makes new bookmark form pop up on click
 let addItem = document.getElementById("addItem");
 
 addItem.addEventListener("click", function (){
-    alert("It works!");
+    $(formAddItem).toggleClass("active");
+    console.log("dupa")
 });
 
 //Sets the color inside the color picker
 
-const color_picker = document.getElementById("colorPicker");
-const color_picker_wrapper = document.getElementById("colorPickerWrapper");
-color_picker.onchange = function() {
-    color_picker_wrapper.style.backgroundColor = color_picker.value;
-};
-color_picker_wrapper.style.backgroundColor = color_picker.value;
+const colorPicker = document.getElementById("colorPicker");
+const colorPickerWrapper = document.getElementById("colorPickerWrapper"); colorPicker.onchange = function() { colorPicker_wrapper.style.backgroundColor = colorPicker.value;
+}; colorPickerWrapper.style.backgroundColor = colorPicker.value;
+
+
+
+let bookmarkName = document.getElementById("bookmarkName");
+let bookmarkUrl = document.getElementById("bookmarkUrl");

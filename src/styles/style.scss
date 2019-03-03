@@ -9,6 +9,7 @@ body {
    background-color: white;
    color: $black07;
 
+
    button {
       display: inline-block;
       border: none;
@@ -38,6 +39,8 @@ body {
       background-color: transparent;
       border:none;
       box-shadow: none;
+      outline: none;
+      padding: 0;
 
    }
 
@@ -60,15 +63,18 @@ body {
       flex-direction: column;
       justify-content: flex-start;
       align-items: center;
+      position:relative;
 
       //Header section
 
       .header {
-         padding: 0 1rem;
+         padding: 0;
          width: 100%;
          display: flex;
          justify-content: space-between;
          align-items: flex-end;
+         flex-wrap: wrap;
+
 
          .header_bookmarks {
             font-size: 1.5rem;
@@ -81,7 +87,7 @@ body {
             justify-content: center;
             align-items: center;
             color: $black07;
-            position:relative;
+            margin-right: 90px;
 
             .button_add-item-content {
                padding-right: 1rem;
@@ -100,17 +106,22 @@ body {
             -moz-box-shadow: $primary-shadow;
             box-shadow: $primary-shadow;
             padding: 2rem;
-            display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: flex-start;
             border-radius: 5px;
             position: absolute;
             top: 5rem;
-            right: 2rem;
+            right: 0;
             z-index: 2;
             background-color: white;
             font-weight: bold;
+            display: none;
+
+
+         &.active{
+            display: flex;
+         }
 
             input{
                margin-top: 0.5rem;
