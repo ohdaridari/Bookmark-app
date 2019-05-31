@@ -53,21 +53,25 @@ body {
     height: 1.5rem;
     border: none;
     outline-color: #9c3e9b;
-    box-shadow: 0px 0px 5px 0px rgba(102, 99, 102, 0.4);
+    box-shadow: 0 0 5px 0 rgba(102, 99, 102, 0.4);
     color: rgba(0, 0, 0, 0.7);
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
     padding: 0 1rem; }
+  body input[type="button"] {
+    background-color: #9c3e9b;
+    color: white;
+    font-weight: bolder; }
   body input[type="color"] {
     -webkit-appearance: none;
     width: 1rem;
-    height: 1rem;
     border-radius: 0.5rem;
     background-color: transparent;
     border: none;
     box-shadow: none;
     outline: none;
-    padding: 0; }
+    padding: 0;
+    margin: 0; }
   body input[type="color"]::-webkit-color-swatch-wrapper {
     padding: 0; }
   body input[type="color"]::-webkit-color-swatch {
@@ -129,6 +133,19 @@ body {
         padding-bottom: 1rem; }
       body .wrapper .form_add-item .form_add-item-color {
         padding-bottom: 1rem; }
+        body .wrapper .form_add-item .form_add-item-color span {
+          margin: 0; }
+        body .wrapper .form_add-item .form_add-item-color .color_option1 {
+          background-color: antiquewhite;
+          border-radius: 50%;
+          width: 1rem;
+          height: 1rem; }
+        body .wrapper .form_add-item .form_add-item-color .color_option2 {
+          background-color: cornflowerblue;
+          border-radius: 50%; }
+        body .wrapper .form_add-item .form_add-item-color .color_option3 {
+          background-color: darksalmon;
+          border-radius: 50%; }
       body .wrapper .form_add-item .form_add-item-to-collection {
         display: flex;
         flex-direction: column; }
