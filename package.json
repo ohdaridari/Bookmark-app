@@ -1,7 +1,6 @@
 {
-  "name": "website",
+  "name": "kalkulator",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,5 +12,15 @@
     "gulp-inject": "^5.0.2",
     "gulp-ruby-sass": "^4.0.0",
     "gulp-webserver": "^0.9.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohdaridari/new.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ohdaridari/new/issues"
+  },
+  "homepage": "https://github.com/ohdaridari/new#readme",
+  "description": ""
 }
